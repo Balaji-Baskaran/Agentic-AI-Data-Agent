@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.pyc
+
+# Virtual environments
+.venv/
+
+# Environment variables and secrets (CRITICAL: Never commit .env)
+.env
+.env.*
+!.env.example
+
+# Generated data, extractions, and transformations
+extract folder/
+data/extract/
+data/transform/
+data/output/
+Schema_Entries_Through_Object.txt
+agents/Schema_Entries_Through_Object.txt
+agents/data_agent_graph.png
+agents/elt_agent.png
+agents/image.png
+agents/sql_analyst.png
+utils/Schema_Entries_Through_Object.txt
+
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
